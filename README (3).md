@@ -31,16 +31,11 @@ TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) is a mul
 
 ## How to Run
 1. Install Python dependencies:  
-   ```bash
    pip install pandas numpy
-   ```
 2. Save your dataset as a CSV file.
 3. Execute the script:  
-   ```bash
+   
    python topsis.py <input_file> <weights> <impacts> <output_file>
-   ```
 
-## Files
-- `topsis.py`: Python script to perform TOPSIS.
-- `summarization_models.csv`: Dataset of models and criteria.
-- `summarization_results.csv`: Results of TOPSIS analysis.
+
+
